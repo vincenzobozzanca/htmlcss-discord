@@ -185,52 +185,109 @@ section {
 }
 
 
-.black-background {
-    background-color: #383838;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-}
 
-.box-red {
-    background-color: #cb4646;
-    border: 1px dashed #000000;
-    height: 500px;
-    width: 40%;
-}
-
-.box-green {
-    background-color: #2ebaa7;
-    border: 1px dashed #ffffff;
-    height: 500px;
-    width: 15%;
-}
-
-.row-footer {
-    background-color: #008051;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    padding: 10px;
-    width: 100%;
-}
-
-.black-background-footer {
-    background-color: #383838;
-    border-top: 1px solid #cacaca;
-    border-bottom: 1px solid #cacaca;
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 
 
-.logo {
-    background-color: #cb4646;
-    border: 1px dashed #000000;
-    padding: 10px;
+.logo{
+    background-image: url(../img/logo.svg);
+    float: left;
+    background-size: contain;
+    width: 17%;
+    background-repeat: no-repeat;
+    height: 40px;
+    margin: 5px 0;
 }
 
-.bottone {
-    background-color: #cb4646;
-    border: 1px dashed #000000;
-    padding: 10px;
+.img-footer{
+    background-image: url(../img/ita.png);
+    height: 20px;
+    width: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
 }
+
+.ita{
+    float: left;
+}
+
+.foot-col{
+    float: left;
+    width: 20%;
+}
+
+.titolo-footer{
+    float:left;
+    width: 20%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.contenitore-footer{
+    padding: 3rem 10rem;
+}
+
+footer{
+    background-color: #23272a;
+}
+
+li{
+    margin: 8px 0px;
+    color: white;
+}
+
+strong{
+    color: #7289da;
+}
+
+.titolo-footer h2{
+    color: #7289da;
+    margin: 0 15px;
+}
+
+.italiano{
+    color: white;
+    margin: 2rem 15px;
+}
+
+i{
+    color: white;
+}
+
+.img-fa-footer i{
+    margin: 0 15px;
+}
+
+.bottone-grigio{
+    background-color: #8ea1e1;
+	text-decoration: none;
+    border-radius: 20px;
+    padding: 4px 10px;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    float: right;
+    position: relative;
+    top: 25%;
+    right: 0;
+}
+
+.foot{
+    border-top: 1px solid #4a5882;
+    padding-top: 2rem;
+}
+
+
+
+
+
+
+
+
