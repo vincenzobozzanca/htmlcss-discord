@@ -3,16 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
-.accedi{
+.button{
 	background-color:white;
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 	border-radius: 20px 20px 20px 20px;
 	padding-left: 20px;
 	padding-right: 20px;
 	
 }
-.accedi .link{
+.button .link{
 	text-decoration: none;
     color: #000000;
 
@@ -57,22 +57,46 @@
 
 
 .blue-section {
-    background-image:"../img/jumbo.png";
+	
+    background-image:url(../img/jumbo.png);
+	background-size: cover;
+	background-position:center ;
+	height: 400px;
 	height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 
 .box-pink {
-    background-color: #ff87fd;
-    border: 1px solid #000000;
-    border: 1px dashed #000000;
+    background-color: none;  
     height: 300px;
     width: 700px;
-}
+	display: inline-block;
+	align-items: center;
+	color: White;
+	text-align: center;
 
+}
+.box-pink .button {
+	color: black;
+	margin: 1em;
+	padding: 1em;
+	border-radius: 30px 30px 30px 30px;
+}
+.box-pink .button-black{
+	color: white;
+	margin: 1em;
+	padding: 1em;
+	background-color:rgb(0, 0, 0);
+	display: inline-flex;
+	align-items: center;
+	border-radius: 30px 30px 30px 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
 .white-background {
     background: #ffffff;
     display: flex;
