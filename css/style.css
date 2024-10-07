@@ -148,13 +148,35 @@
     height: 300px;
     width: 60%;
 }
-
-.green-box {
-    background-color: #00a941;
-    border: 1px dashed #000000;
+.box-blue3{
+    
+	background-image: url(../img/item3.svg);
+	background-size: cover;
+	background-position:center ;
+    
+    height: 300px;
     width: 60%;
+}
+.green-box {
+    background-color: none;
+  
+	text-align: center;
+	width: 60%;
     height: 800px;
-    margin: 30px 0;
+    margin: 30px ;
+    
+}
+.green-box .button{
+	background-color: #3160E0;	
+	color: rgb(232, 224, 224);
+	margin: 1em;
+	padding: 1em;
+
+	display: inline-flex;
+	align-items: center;
+	border-radius: 30px 30px 30px 30px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 
