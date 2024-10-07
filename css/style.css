@@ -20,9 +20,16 @@
 .link{
 	text-decoration: none;
     color: #dad9d9;
-	display: inline-flex;
-	justify-content: space-between;
 
+
+}
+.link-section{
+	display: flex;
+	text-align: center;
+	padding: center ;
+
+	gap: 2EM;
+	margin-top:8px;
 }
 .header {
     background-color: #3160E0;
@@ -30,6 +37,7 @@
     padding: 10px;
 	display: flex;
 	text-align: center;
+
 }
 
 .container {
@@ -49,12 +57,13 @@
 
 
 .blue-section {
-    background-color: #0000a3;
-    height: 400px;
+    background-image:"../img/jumbo.png";
+	height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .box-pink {
     background-color: #ff87fd;
