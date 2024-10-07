@@ -109,20 +109,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .box-blue {
-    background-color: #4080ff;
-    border: 1px dashed #000000;
-    height: 400px;
+    
+	background-image: url(../img/item1.svg);
+	background-size: cover;
+	background-position:center ;
+    
+    height: 300px;
     width: 60%;
 }
 
 .box-pink2 {
-    background-color: #fdbafc;
-    border: 1px dashed #000000;
-    height: 400px;
+    background-color: none;
+    display:inline-block;
+	align-items: center;
     width: 40%;
+	text-align: top;
+	
 }
 
 .grey-background {
@@ -132,17 +138,14 @@
     align-items: center;
 }
 
-.box-pink2 {
-    background-color: #fdbafc;
-    border: 1px dashed #000000;
-    height: 400px;
-    width: 40%;
-}
 
-.box-blue {
-    background-color: #4080ff;
-    border: 1px dashed #000000;
-    height: 400px;
+.box-blue2 {
+    
+	background-image: url(../img/item2.svg);
+	background-size: cover;
+	background-position:center ;
+    
+    height: 300px;
     width: 60%;
 }
 
